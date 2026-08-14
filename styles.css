@@ -18,6 +18,62 @@
 .cart-drawer{padding:25px 38px 34px;background:#12110f;border-left-color:#49433e;box-shadow:-20px 0 50px rgba(0,0,0,.32)}.cart-drawer h2{font-size:40px;letter-spacing:-.5px}.cart-subtitle{margin:4px 0 18px;color:#98928d}.close-drawer{top:11px;right:14px;background:#201f1d}.cart-items{margin:0;min-height:120px;padding-top:0}.cart-item{grid-template-columns:78px minmax(0,1fr) 22px;gap:15px;padding:11px;border-color:#36322f;background:#151412;transition:border-color .18s}.cart-item:hover{border-color:#5a5149}.cart-thumb{width:78px;height:78px;background:#1a1d20}.cart-item-data{min-width:0;position:relative}.cart-item h3{font-size:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding-right:2px}.cart-item small{display:block;margin-top:4px;color:#aaa29c;font-size:9px;letter-spacing:2px}.cart-item p{font-size:16px;margin:8px 0 0;color:#f5f2ef}.remove-item{font-size:18px;align-self:start;padding:0;color:#9a958f;transition:color .18s}.remove-item:hover{color:var(--orange)}.quantity{height:23px;position:absolute;right:0;bottom:1px;width:88px;border-color:#47413c}.quantity button{width:25px;line-height:1}.quantity button:hover{color:var(--orange)}.quantity span{padding:3px 0}.cart-footer{padding-top:23px}.subtotal strong{font-size:31px}.cart-footer p{margin:19px 0 16px}.checkout-button{min-height:61px;font-size:24px}.checkout-button:not(:disabled):hover{filter:brightness(1.1);box-shadow:0 6px 20px rgba(255,105,0,.2)}
 @media(max-width:500px){.cart-drawer{padding:24px 22px 28px}.cart-drawer h2{font-size:35px}.cart-item{grid-template-columns:72px minmax(0,1fr) 20px;gap:12px}.cart-thumb{width:72px;height:72px}.cart-item h3{font-size:18px}.cart-item p{font-size:15px}.checkout-button{font-size:22px}}
 
+/* Ajustes responsivos para navegação, vitrine e áreas de toque */
+@media(max-width:700px){
+  .site-header{gap:10px}
+  .site-header nav{flex:1;justify-content:center;min-width:0}
+  .header-actions{flex:0 0 auto}
+  .bag-button{width:42px;height:38px}
+  .product-info{min-height:112px;padding:17px 74px 18px 16px}
+  .product-info h3{font-size:20px;line-height:1.08;overflow-wrap:anywhere}
+  .add-product{right:16px;bottom:16px;width:48px;height:48px;display:grid;place-items:center;padding:0;font-size:28px;line-height:1;border-color:#5a5550}
+  .stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+  .stats strong{min-width:0}
+  .stats small{line-height:1.4;overflow-wrap:anywhere}
+  footer>div:last-child{display:flex;flex-wrap:wrap;gap:12px 18px}
+  footer a{margin-left:0}
+}
+
+@media(max-width:430px){
+  .site-header{padding-inline:14px}
+  .logo{height:42px;gap:7px}
+  .logo img{width:40px;height:40px}
+  .logo .logo-label{font-size:23px}
+  nav{gap:10px}
+  nav a{font-size:8px;letter-spacing:1.5px}
+  .hero{min-height:620px}
+  .hero-copy{padding-inline:18px}
+  .button-row{flex-direction:column;align-items:stretch}
+  .button-row .button{width:100%}
+  .section-heading{align-items:flex-end;gap:18px}
+  .section-heading h2{font-size:45px}
+  .section-heading>a{letter-spacing:2px;text-align:right}
+  .shop-page h1{font-size:22vw}
+  .stats{grid-template-columns:1fr;gap:0;padding-block:18px}
+  .stats strong{display:grid;grid-template-columns:72px 1fr;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}
+  .stats strong:last-child{border-bottom:0}
+  .stats small{margin-top:0;font-size:9px}
+  footer{flex-direction:column;align-items:flex-start;justify-content:flex-start}
+  footer .brand{font-size:48px}
+  footer>div{line-height:1.7}
+  .club-call{padding-inline:22px}
+  .club-call h2{font-size:45px}
+  .pix-dialog{padding-inline:20px}
+  .pix-qr{width:min(220px,100%);height:auto;aspect-ratio:1}
+}
+
+@media(max-width:350px){
+  .logo .logo-label{display:none}
+  .site-header nav{justify-content:flex-start}
+  .container{padding-inline:14px}
+  .products-preview{padding-inline:14px}
+  .product-image{height:calc(100vw - 30px)}
+  .cart-drawer{padding-inline:14px}
+  .cart-item{grid-template-columns:58px minmax(0,1fr) 18px;gap:9px;padding:9px}
+  .cart-thumb{width:58px;height:58px}
+  .quantity{position:static;margin-top:8px}
+}
+
 .remove-item{background:transparent;border:0;font-size:0}.remove-item svg{display:block;width:17px;height:17px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 
 /* Ícone da sacola no cabeçalho */
