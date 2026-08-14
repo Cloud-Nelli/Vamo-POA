@@ -1,10 +1,10 @@
 const products = [
-  { id: 'camiseta', category: 'CAMISETA', name: 'CAMISETA DRY-FIT VAMOO CORE', price: 149.90, image: 'camisa_baisca.jpg' },
-  { id: 'regata', category: 'REGATA', name: 'REGATA PERFORMANCE VAMOO RUN', price: 129.90, image: 'regata.jpg' },
+  { id: 'camiseta', category: 'CAMISETA', name: 'CAMISETA DRY-FIT VAMOO CORRE', price: 149.90, image: 'camisa_baisca.jpg' },
+  { id: 'regata', category: 'REGATA', name: 'REGATA PERFORMANCE VAMOO CORRE', price: 129.90, image: 'regata.jpg' },
   { id: 'shorts', category: 'SHORTS', name: 'SHORTS 2 EM 1 VAMOO SPLIT', price: 189.90, image: 'calcao.jpg' },
   { id: 'jaqueta', category: 'JAQUETA', name: 'CORTA-VENTO VAMOO STORM', price: 349.90, image: 'jaqueta.jpg' },
   { id: 'moletom', category: 'MOLETOM', name: 'MOLETOM OVERSIZED VAMOO CLUB', price: 279.90, image: 'moletom.jpg' },
-  { id: 'legging', category: 'LEGGING', name: 'LEGGING COMPRESSÃO VAMOO MOVE', price: 199.90, image: 'laggy.jpg' },
+  { id: 'legging', category: 'LEGGING', name: 'LEGGING COMPRESSÃO VAMOO CORRE', price: 199.90, image: 'laggy.jpg' },
   { id: 'bone', category: 'ACESSÓRIO', name: 'BONÉ TRUCKER VAMOO ORANGE', price: 99.90, image: 'bone.jpg' },
   { id: 'meias', category: 'ACESSÓRIO', name: 'KIT 3 MEIAS VAMOO CANO MÉDIO', price: 79.90, image: 'meia.jpg' },
 ];
